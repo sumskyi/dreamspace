@@ -6,7 +6,6 @@ RSpec.describe Book, type: :model do
     it { have_and_belong_to_many(:authors) }
   end
 
-
   describe 'associations' do
     # this is green always for some reason
     it { have_and_belong_to_many(:authors) }
