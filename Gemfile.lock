@@ -58,6 +58,9 @@ GEM
       dotenv (= 2.7.5)
       railties (>= 3.2, < 6.1)
     erubi (1.8.0)
+    fabrication (2.20.2)
+    faker (2.3.0)
+      i18n (~> 1.6.0)
     ffi (1.11.1)
     formatador (0.2.5)
     globalid (0.4.2)
@@ -210,6 +213,8 @@ DEPENDENCIES
   bootsnap (>= 1.1.0)
   byebug
   dotenv-rails
+  fabrication
+  faker
   guard
   guard-rspec
   guard-rubocop
