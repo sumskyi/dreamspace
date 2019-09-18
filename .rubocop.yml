@@ -1,0 +1,26 @@
+inherit_from: .rubocop_todo.yml
+
+Rails:
+  Enabled: true
+
+AllCops:
+  Exclude:
+    - 'vendor/**/*'
+    - 'spec/fixtures/**/*'
+    - 'tmp/**/*'
+    - 'db/**/*'
+    - 'bin/**/*'
+    - 'config/**/*'
+    - 'Gemfile'
+    - 'Rakefile'
+  TargetRubyVersion: 2.6
+
+Style/Documentation:
+  Description: 'Document classes and non-namespace modules.'
+  Enabled: false
+
+Style/Encoding:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 80

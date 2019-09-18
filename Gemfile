@@ -34,6 +34,8 @@ group :development do
   gem 'listen', '>= 3.0.5', '< 3.2'
   gem 'guard'
   gem 'guard-rspec'
+  gem 'rubocop'
+  gem 'guard-rubocop'
 end
 
 
