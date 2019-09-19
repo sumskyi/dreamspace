@@ -27,3 +27,6 @@ Style/Encoding:
 
 Metrics/LineLength:
   Max: 80
+
+Metrics/BlockLength:
+  Max: 150
